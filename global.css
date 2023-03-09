@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto+Condensed&display=swap');
+:root{
+    --primary: #60a5fa;
+    --secondary-button: #4f46e5;
+    --black: #333333;
+}
+.txt-area{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+}
+#output{
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 1px solid var(--black);
+    font-size: large; 
+}
+
+body{
+    margin: 0;
+    color:#333333;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.navigation{
+    color: white;
+    background-color: var(--secondary-button);
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+
+}
+#btn-translate{
+    background-color: var(--primary);
+    border:none;
+    color:white;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-size:large;
+    
+}
+
+.main-content{
+    margin:auto;
+    padding: 1rem;
+    max-width: 600px;
+    display: block;
+}
+
+.footer{
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--secondary-button);
+    text-align: center;
+    font-size: x-large;
+
+}
