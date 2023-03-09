@@ -11,16 +11,17 @@ function getTranslationURL(text){
 
 function errorHandler(error){
     console.log("Error occured", error);
-    alert("Somethingw wrong with server! Try again after some time")
+    alert("Something wrong with server! Try again after some time")
 }
 function clickHandler(){
-    console.log(serverURL);
+   
     var inputTxt = txtInput.value;
+    console.log(getTranslationURL(inputTxt));
     fetch(getTranslationURL(inputTxt))
     .then(response => response.json())
     .then(json => {
         var transaltedTxt = json.contents.translated;
-        outputDiv.innerText = transaltedTxt;
+        outputText.innerText = transaltedTxt;
         })
     .catch(errorHandler) 
 };

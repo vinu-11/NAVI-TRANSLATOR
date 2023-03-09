@@ -28,10 +28,12 @@ body{
     color:#333333;
     font-family: 'Dancing Script', cursive;
     font-family: 'Roboto Condensed', sans-serif;
+    
 }
 .navigation{
     color: white;
-    background-color: var(--secondary-button);
+    /* background-color: var(--secondary-button); */
+    background-image: url("/images/Avatar_2.jfif");
     text-align: center;
     font-size: 2rem;
     padding: 2rem;
@@ -60,8 +62,9 @@ body{
     bottom: 0;
     width: 100%;
     padding: 1rem;
-    background-color: var(--secondary-button);
+    /* background-color: var(--secondary-button); */
     text-align: center;
-    font-size: x-large;
+    font-size: large;
+    background-image: url("/images/Avatar_2.jfif");
 
 }
